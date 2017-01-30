@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Annotation Suite">
+  <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <!-- 
+  <test name="Search Vehicle Verification">
+    <classes>
+      <class name="com.copart.login.SearchVehicle"/>
+    </classes>
+  </test> 
+ 
+  <test name="Ascending Order Sorting verification">
+    <classes>
+      <class name="com.copart.login.Sortfunc"/>
+    </classes>
+  </test> 
+ 
+  <test name="Descending Order Sorting Verification">
+    <classes>
+      <class name="com.copart.login.Sortfunchightolow"/>
+    </classes>
+  </test>
+   -->
+  <test name = "Read values from excel">
+  <classes>
+      <class name="ReadvaluesfromExcel.ReadLotvalues"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

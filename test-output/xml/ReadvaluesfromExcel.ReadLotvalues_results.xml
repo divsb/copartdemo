@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Read values from excel"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="31.823">
+  <properties />
+  
+  
+            <testcase name="readdata" time="31.823" classname="ReadvaluesfromExcel.ReadLotvalues" />
+      
+</testsuite>
